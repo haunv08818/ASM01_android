@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pending acts</string>
+    <string name="txt_phone">Phone</string>
+    <string name="txt_sms">SMS</string>
+    <string name="ed_phone">Enter phone number</string>
+    <string name="ed_sms">Enter message</string>
+    <string name="txt_time">Time setup</string>
+    <string name="txt_loading">Time Delay</string>
+    <string-array name="time">
+        <item>Second</item>
+        <item>Minute</item>
+        <item>Hour</item>
+    </string-array>
+</resources>

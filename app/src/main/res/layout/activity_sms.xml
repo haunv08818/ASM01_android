@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layout_gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/et_inputPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:maxLength="10"
+        android:layout_marginTop="30dp"
+        android:hint="@string/ed_phone"
+        android:textSize="30sp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <EditText
+        android:id="@+id/et_inputMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:hint="@string/ed_sms"
+        android:padding="12dp"
+        android:gravity="top"
+        android:minLines="6"
+        android:textSize="30sp"
+        android:background="@android:drawable/editbox_background"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <EditText
+            android:id="@+id/bt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_gravity="start"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            android:hint="@string/txt_time"
+            android:background="@android:drawable/editbox_background"/>
+        <Spinner
+            android:id="@+id/spinnerTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_sendMessage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_message"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
